@@ -1,0 +1,125 @@
+@import '../variables';
+
+.padding-x {
+    padding-left: 170px;
+    padding-right: 170px;
+
+    @media (max-width: 1024px) {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+.about-company {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.community-icon-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    &:first-child {
+        margin-top: 40px;
+    }
+}
+
+.community-icon-box {
+    width: 200px;
+    height: 200px;
+
+    background: linear-gradient(101.71deg, rgba(255, 255, 255, 0.1) 0.89%, rgba(255, 255, 255, 0.16) 73.38%);
+    box-shadow: 0px 10px 24px -1px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(34px);
+    /* Note: backdrop-filter has minimal browser support */
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 25px 15px;
+
+    @media (max-width: 600px) {
+        width: 150px;
+        height: 150px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 28px;
+        text-align: center;
+    }
+}
+
+.contributer {
+    padding: 0 385px 150px;
+
+    @media (max-width: 1800px) {
+        padding-left: 340px;
+        padding-right: 340px;
+    }
+
+    @media (max-width: 1680px) {
+        padding-left: 300px;
+        padding-right: 300px;
+    }
+
+    @media (max-width: 1600px) {
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+
+    @media (max-width: 1440px) {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+
+    @media (max-width: 1366px) {
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+
+    @media (max-width: 1280px) {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    @media (max-width: 1024px) {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+}
+
+.community-page {
+    .developers {
+        margin-bottom: 150px;
+
+        @media (max-width: 1024px) {
+            margin-top: 100px;
+        }
+    }
+}
+
+.contributerTitle {
+    padding: 50px 170px 100px;
+
+    @media (max-width: 1024px) {
+        padding-left: 75px;
+        padding-right: 75px;
+    }
+
+    @media (max-width: 600px) {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+    }
+}
